@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TweetCell" customModule="TwitterClone" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="268" id="PAD-6w-4Lr" customClass="TweetCell" customModule="TwitterClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="564" height="268"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PAD-6w-4Lr" id="vMw-Eh-6HQ">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qBr-0W-8bv">
+                        <rect key="frame" x="124" y="15" width="432" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ab3-cv-Iyg">
+                        <rect key="frame" x="8" y="15" width="93" height="97"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="97" id="LYH-Xd-wH5"/>
+                            <constraint firstAttribute="width" constant="93" id="zOx-J4-kg6"/>
+                        </constraints>
+                        <state key="normal">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3l5-88-xvA">
+                        <rect key="frame" x="124" y="51" width="432" height="209"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="Ab3-cv-Iyg" secondAttribute="bottom" constant="8" id="1uG-Wm-RQh"/>
+                    <constraint firstItem="3l5-88-xvA" firstAttribute="leading" secondItem="qBr-0W-8bv" secondAttribute="leading" id="3p2-7L-KeB"/>
+                    <constraint firstItem="Ab3-cv-Iyg" firstAttribute="leading" secondItem="vMw-Eh-6HQ" secondAttribute="leadingMargin" id="OZx-yu-WUs"/>
+                    <constraint firstItem="Ab3-cv-Iyg" firstAttribute="top" secondItem="vMw-Eh-6HQ" secondAttribute="topMargin" constant="7" id="S3H-Cl-LmY"/>
+                    <constraint firstItem="Ab3-cv-Iyg" firstAttribute="top" secondItem="qBr-0W-8bv" secondAttribute="top" id="V96-ot-DLk"/>
+                    <constraint firstItem="3l5-88-xvA" firstAttribute="trailing" secondItem="vMw-Eh-6HQ" secondAttribute="trailingMargin" id="jU6-hu-8YA"/>
+                    <constraint firstItem="qBr-0W-8bv" firstAttribute="trailing" secondItem="vMw-Eh-6HQ" secondAttribute="trailingMargin" id="l59-I4-NnP"/>
+                    <constraint firstItem="qBr-0W-8bv" firstAttribute="leading" secondItem="Ab3-cv-Iyg" secondAttribute="trailing" constant="23" id="pE3-8Z-BYE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3l5-88-xvA" secondAttribute="bottom" constant="-1" id="q8v-4Y-b3n"/>
+                    <constraint firstItem="3l5-88-xvA" firstAttribute="top" secondItem="qBr-0W-8bv" secondAttribute="bottom" constant="15" id="yPY-Kl-DOc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnImageButton" destination="Ab3-cv-Iyg" id="Hy7-Dm-qPX"/>
+                <outlet property="lblTweet" destination="3l5-88-xvA" id="dJ5-js-8Ub"/>
+                <outlet property="lblUser" destination="qBr-0W-8bv" id="zei-Zq-34O"/>
+            </connections>
+            <point key="canvasLocation" x="388" y="250"/>
+        </tableViewCell>
+    </objects>
+</document>

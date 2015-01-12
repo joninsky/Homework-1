@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F9FB468F-014A-4DF3-9E5E-148462AA9A43</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TwitterClone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>462C848B99EB9F1E254FDC5BAE09A2B99CD5CDBC</key>
+		<string>https://github.com/joninsky/Week-1-Homework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week 1/TwitterClone/TwitterClone.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>462C848B99EB9F1E254FDC5BAE09A2B99CD5CDBC</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/joninsky/Week-1-Homework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>462C848B99EB9F1E254FDC5BAE09A2B99CD5CDBC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>462C848B99EB9F1E254FDC5BAE09A2B99CD5CDBC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS%20Dev%20Accelerator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
